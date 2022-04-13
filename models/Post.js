@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+
+//CREATING A NEW SCHEMA IN MONGOOSE FOR A POST CONTAINING MULTIPLE FIELDS OF THE POST
 const PostSchema = new mongoose.Schema(
   {
     title: {

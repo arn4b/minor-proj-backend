@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+
+//CREATING A NEW CATEGORY SCHEMA IN MONGO DB
 const CategorySchema = new mongoose.Schema(
   {
     name: {
